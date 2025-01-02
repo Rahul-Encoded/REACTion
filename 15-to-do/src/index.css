@@ -1,0 +1,142 @@
+* {
+  font-family: 'Orbitron', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a0a0a;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  color: #fff;
+}
+
+.container {
+  background-color: #1a1a1a;
+  border: 2px solid #00ffff;
+  padding: 20px;
+  width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  text-align: center;
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+  margin-bottom: 20px;
+}
+
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  background-color: #2a2a2a;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(255, 0, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.text {
+  flex-grow: 1;
+  color: #0ff;
+}
+
+.dlt-btn, .up-btn, .down-btn {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #f0f;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+
+.dlt-btn:hover {
+  background-color: #00ff55;
+  box-shadow: 0 0 10px #00ff55;
+}
+
+.up-btn:hover {
+  background-color: #55ffff;
+  box-shadow: 0 0 10px #55ffff;
+}
+
+.down-btn:hover {
+  background-color: #5555ff;
+  box-shadow: 0 0 10px #5555ff;
+}
+
+input[type='text'] {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 2px solid #0ff;
+  background-color: transparent;
+  color: #0ff;
+  margin: 10px 0;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+input[type='text']:focus {
+  outline: none;
+  box-shadow: 0 0 10px #0ff;
+  color: #f0f;
+}
+
+input::placeholder {
+  color: #0ff;
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: transparent;
+  color: #f0f;
+  border: 2px solid #f0f;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: #f0f;
+  color: #0a0a0a;
+  box-shadow: 0 0 15px #f0f;
+  transition: 0.75s;
+}
+
+.in{
+  display: flex;
+}
+
+#taskInput{
+  width: 70%;
+  margin-right: 10px;
+}
+
+.add-btn{
+  width: 35%;
+  height: 55px;
+}
