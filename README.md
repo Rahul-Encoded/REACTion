@@ -33,6 +33,6 @@ This repository is organized into folders with sequential numbering to guide you
 
 ## 🤝 Contributions  
 
-I love contributions! Report issues, suggest features, or create pull requests to help improve this repository.  
+I welcome contributions to make this repository even better! Submit issues, suggest improvements, or contribute new examples via pull requests.
 
 ---
