@@ -1,4 +1,4 @@
-//useContext() = React hook that allows ypu to share values between multiple levels of components without passing props through each level
+//useContext() = React hook that allows you to share values between multiple levels of components without passing props through each level
 /*
 
 PROVIDER CONTENT
